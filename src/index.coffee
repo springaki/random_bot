@@ -1,5 +1,4 @@
-dotenv = require('dotenv')
-dotenv.load();
+dotenv = require('dotenv').config()
 
 slack_hook_url = process.env.SLACK_HOOK_URL
 
@@ -47,7 +46,7 @@ exports.handler = (event, context) ->
   random_size = Math.floor(Math.random() * array.length)
   res_text = array[random_size]
   res_json = JSON.stringify(
-    channel: '#_spike3'
+    channel: '#_spike2'
     username: 'Suggest Bot'
     icon_emoji: ':tophat:'
     text: res_text)

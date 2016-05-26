@@ -1,5 +1,4 @@
-dotenv = require('dotenv')
-dotenv.load();
+dotenv = require('dotenv').config()
 
 aws_role = process.env.AWS_ROLE
 
