@@ -1,7 +1,7 @@
 {
   "name": "randomBot",
-  "description": "TODO",
-  "version": "1.0.1",
+  "description": "ランダムに名言をつぶやくBot",
+  "version": "1.0.2",
   "dependencies": {
     "aws-sdk": "^2.3.2",
     "dotenv": "^2.0.0"
